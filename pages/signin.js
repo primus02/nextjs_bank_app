@@ -19,7 +19,7 @@ const handleChange=(e)=> {
   const handleSubmit=(e)=> {
        e.preventDefault();
       
-       fetch(`http://localhost:4000/users?email=${info.email}`)
+       fetch(`http://localhost:4000/users?email=${info.email}&password=${info.password}`)
        .then(res=> res.json())
        .then(user=> {
            if(user.length < 1){
