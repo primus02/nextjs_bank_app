@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Akinyemi Olalekan",
+      "address": "Ibadan, Oyo State, Nigeria",
+      "email": "drakinspip@yahoo.com",
+      "password": "testing123",
+      "balance": 410,
+      "transaction_history": [
+        {
+          "amount": "200",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-14T15:25:19.112Z"
+        },
+        {
+          "amount": "30",
+          "transaction_type": "debit",
+          "createdAt": "2022-12-14T16:23:03.347Z"
+        },
+        {
+          "amount": "50",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-14T16:23:21.678Z"
+        },
+        {
+          "amount": "220",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-15T13:07:54.550Z"
+        },
+        {
+          "amount": "30",
+          "transaction_type": "debit",
+          "createdAt": "2022-12-15T13:08:08.142Z"
+        }
+      ]
+    },
+    {
+      "name": "Adenike Yusroh",
+      "address": "Omu-Ara, Kwara State, Nigeria",
+      "email": "adenike01@yahoo.com",
+      "password": "adenike01",
+      "balance": 690,
+      "transaction_history": [
+        {
+          "amount": "500",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-15T10:52:54.953Z"
+        },
+        {
+          "amount": "200",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-15T10:53:19.648Z"
+        },
+        {
+          "amount": "50",
+          "transaction_type": "debit",
+          "createdAt": "2022-12-15T10:54:02.598Z"
+        },
+        {
+          "amount": "30",
+          "transaction_type": "debit",
+          "createdAt": "2022-12-15T13:13:44.456Z"
+        },
+        {
+          "amount": "20",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-15T13:53:41.497Z"
+        },
+        {
+          "amount": "50",
+          "transaction_type": "credit",
+          "createdAt": "2022-12-15T14:30:42.214Z"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
